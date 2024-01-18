@@ -2,7 +2,7 @@ Run the following to install the avdev sandbox on a new machine (preferably Ubun
 
 ```
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install git wget curl
+sudo apt-get install -y git wget curl ffmpeg libsm6 libxext6
 curl -sSL https://install.python-poetry.org | python3 -
 export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 export PATH="$HOME/.local/bin:$PATH"
