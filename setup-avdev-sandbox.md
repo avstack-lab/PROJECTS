@@ -1,3 +1,10 @@
+(optional) Run the following to change your shell to zsh/ohmyzsh
+```
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install -y git zsh curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 Run the following to install the avdev sandbox on a new machine (preferably Ubuntu 22.04)
 
 ```
